@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body" style="background-image: url('https://miro.medium.com/max/3840/1*uZ094Kxwv_qLih3tn9AZ6Q.jpeg');">
+    <div class="nav">
+        <a href="#" onclick="displayArt()">Art Image</a>
+        <a href="#" onclick="displayChuckNorrisJokes()">Chuck Norris Jokes</a>
+        <a href="#" onclick="displayRandomJokes()">Random Jokes</a>
+        <a href="#" onclick=" displayDogCatFox()">Random Dog/Cat/Fox Images</a>
+
+
+    </div>
+    <div class="art-container" id="container1" style="display: none; width: 600px;">
+
+        <button id="first-surprise">Get a Museum Exponate</button>
+        <img src="" alt="" id="first" style="max-width: 600px;">
+        <p id="description"></p>
+    </div>
+    <div class="chuck-container" id="container2" style="display: none; width: 600px;margin: 0, auto;">
+        <h1>Get a Chuck Norris joke</h1>
+        <label for="joke">Every Click Get's a new Chuck Norris Joke&#8667;</label>
+        <button id="sec-surprize">Get a Random Joke</button>
+        <p id="jokes"></p>
+    </div>
+    <div class="random-joke" id="container3" style="display: none; width: 600px;margin: 0, auto;">
+        <h1>Get a random joke</h1>
+        <label for="joke2">Every Click Get's a new Joke&#8667;</label>
+        <button id="3rd-Surprize">Get a Random joke</button>
+        <h3 id="random-jokes"></h3>
+        <h3 id="answer"></h3>
+    </div>
+    <div class="animals" id="animal" style="display: none;">
+
+        <h1>Random images</h1>
+        <div class="triger">
+            <select name="my-select" id="animals">
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="fox">Fox</option>
+            </select>
+        </div>
+        <div><button id="get" onclick="getPhoto()">Get Photo</button></div>
+        <div class="image-container">
+            <img src="" alt="image" style="max-width: 600px;" id="random">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

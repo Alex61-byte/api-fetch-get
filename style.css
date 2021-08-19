@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-repeat: none;
+    background-size: cover;
+}
+.nav{
+
+    background-color: grey;
+    opacity: 80%;
+    height: 30px;
+    vertical-align:bottom;
+}
+a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+a:hover{
+    background-color: orangered;
+    color: white;
+
+}
+
+.art-container{
+    opacity: 90%;
+    margin-top: 100px;
+    margin: 0 auto;
+    width: 1000px;
+    display: block;
+    text-align: center;
+}
+
+.chuck-container{
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin: 0 auto;
+    width: 600px;
+    background-color: papayawhip;
+    opacity: 70%;
+}
+.random-joke{
+    text-align: center;
+    border-radius: 20px;
+    margin-top:200px;
+    margin: 0 auto;
+    width: 600px;
+    background-color: papayawhip;
+    opacity: 70%;
+}
+
+button{
+    margin: 50px;
+}
+p{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: peru;
+    color: white;
+}
+.animals{
+    text-align: center;
+    border-radius: 20px;
+    margin-top:200px;
+    margin: 0 auto;
+    width: 600px;
+    background-color: papayawhip;
+
+
+}
+
+
+.families{
+    text-align: center;
+
+    padding: 10px;
+}
+select{
+    width: 100px;
+    height: 24px;
+    background-color: orangered;
+    color: white;
+    font-size: large;
+}
+
+button{
+    height: 30px;
+    width: fit-content;
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+label{
+    font-size: 24px;
+    font-weight: bold;
+} 
